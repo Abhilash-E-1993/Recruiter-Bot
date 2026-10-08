@@ -1,0 +1,4 @@
+node_modules
+database/recruiter.db
+*.pdf
+spec.txt
