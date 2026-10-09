@@ -268,3 +268,10 @@ through setup.
 scores above, the experience curve, the availability rows, the visibility rule
 and the explanation sentences. No database needed.
 
+## How AI was used
+
+I decided the design — scoring rules, weights, architecture and trade-offs —
+then used **Claude AI** to refine those decisions into a clear spec
+(`spec.txt`), and **Cline** to implement the code from that spec. I reviewed
+the output and used the tests to verify it behaved the way I intended.
+
